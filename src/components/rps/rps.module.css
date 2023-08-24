@@ -1,0 +1,109 @@
+.main {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 60px 300px;
+}
+
+.area__player_h1,
+.area__com_h1 {
+  color: black;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 3.6px;
+  text-transform: uppercase;
+}
+
+.area__player .rps,
+.area__com .rps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  padding: 0 25px;
+  width: 225px;
+}
+
+.area__player .rps .rock,
+.area__com .rps .comp__rock {
+  height: 160px;
+}
+.area__player .rps #rock,
+.area__com .rps #rock {
+  width: 128px;
+  height: 92px;
+  align-self: center;
+  background-color: transparent !important;
+  margin-bottom: 80px;
+}
+
+.area__player .rps #paper,
+.area__com .rps #paper {
+  width: 115px;
+  height: 150px;
+  align-self: center;
+  background-color: transparent !important;
+  margin-bottom: 80px;
+}
+.area__player .rps #scissors,
+.area__com .rps #scissors {
+  width: 130px;
+  height: 160px;
+  align-self: center;
+  background-color: transparent !important;
+  margin-bottom: 80px;
+}
+
+/* .area-versus {
+    margin: 0 70px;
+  } */
+
+.area__versus #versus {
+  color: #bd0000;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 144px;
+  font-weight: 700;
+  letter-spacing: 14.4px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.area__versus .refresh {
+  position: absolute;
+  top: 100%;
+  left: 45%;
+}
+
+.area__versus .img {
+  width: 77px;
+  height: 77px;
+}
+
+.buttonChosen {
+  border-radius: 30px;
+  background: #c4c4c4 !important;
+  /* width: 223px;
+    height: 204px; */
+}
+
+.draw__box {
+  width: 290px;
+  height: 155px;
+  border-radius: 10px;
+  background: #4c9654;
+  transform: rotate(-28deg);
+  display: flex;
+  justify-content: center;
+}
+
+#button {
+  border: none;
+  background-color: transparent;
+  padding: 1px 25px;
+  height: 204px;
+}

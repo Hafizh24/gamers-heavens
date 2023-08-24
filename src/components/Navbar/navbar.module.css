@@ -1,0 +1,29 @@
+.bg__custom {
+  background: rgba(0, 0, 0, 0.5);
+  font-weight: 700;
+  font-size: normal;
+}
+
+.logo {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 24px !important;
+  font-weight: 700;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}
+
+.navbar__ul {
+  margin-left: 50px;
+}
+
+.link {
+  color: #fff !important;
+  text-align: right;
+  font-family: "Open Sans";
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  margin-right: 40px;
+}
